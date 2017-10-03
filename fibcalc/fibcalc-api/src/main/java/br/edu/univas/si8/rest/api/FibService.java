@@ -14,7 +14,7 @@ public interface FibService {
 	@GET
 	@Path("/fib/{num}")
 	@Produces(MediaType.APPLICATION_JSON)	
-	Result CalculaFib(@PathParam("num") int num);
+	Result fibcalc(@PathParam("num") int num);
 	
 	
 	
